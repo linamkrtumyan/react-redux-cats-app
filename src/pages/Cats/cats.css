@@ -1,0 +1,38 @@
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.page-wrapper {
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.more-btn {
+  background: #1d9bf0;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 100px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.more-btn:hover {
+  background: #1d78f0;
+}
+
+@media screen and (max-width: 700px) {
+  .page-wrapper {
+    margin-left: 50px;
+  }
+}
